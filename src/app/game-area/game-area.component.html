@@ -1,0 +1,13 @@
+<div *ngIf="true; else elseBlock">
+    <app-player-details [name]="'Pooja'" [symbol]="'X'"></app-player-details>
+</div>
+<ng-template #elseBlock><div>
+    <app-player-details-form></app-player-details-form>
+</div></ng-template>
+<app-game></app-game>
+<div *ngIf="true; else elseBlock">
+    <app-player-details [name]="'Ashwini'" [symbol]="'O'"></app-player-details>
+</div>
+<ng-template #elseBlock><div>
+    <app-player-details-form></app-player-details-form>
+</div></ng-template>

@@ -1,0 +1,26 @@
+<form>
+    <div class="group">
+    <label>Name</label>
+    <input type="text" autocomplete="off" minlength="3" />
+    </div>
+    <ng-container>
+    <div class="group">
+    <label>
+    Security Question
+    </label>
+    <select>
+    <option value="mother">What's your mother's name?</option>
+    <option value="number">What's your favorite number?</option>
+    <option value="food">What's your favorite food?</option>
+    </select>
+    </div>
+    <div class="group">
+    <label>Answer</label>
+    <input type="text" autocomplete="off" required />
+    </div>
+    </ng-container>
+    <button type="submit" class="create-button">
+    Create
+    </button>
+</form>
+<button>Load existing</button>
